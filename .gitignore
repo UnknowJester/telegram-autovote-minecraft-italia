@@ -1,0 +1,25 @@
+# Secrets
+.env
+
+# Logs
+*.log
+*.log.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Runtime
+bot.lock
+
+# Screenshots (generated)
+shots/*
+!shots/.gitkeep
+
+# venv / build
+venv/
+dist/
+build/
+*.spec
